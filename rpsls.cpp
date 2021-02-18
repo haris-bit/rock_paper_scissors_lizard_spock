@@ -82,12 +82,12 @@ int main()
 			cout<<"You Lose!"<<endl;
 			cout<<"Paper covers Rock!"<<endl;
 		}
-		if(cpu==3)
+		else if(cpu==3)
 		{
 			cout<<"You Win!"<<endl;
 			cout<<"Rock smashes Scissors!"<<endl;
 		}
-		if(cpu==4)
+		else if(cpu==4)
 		{
 			cout<<"You Win!"<<endl;
 			cout<<"Rock crushes Lizard!"<<endl;
@@ -107,17 +107,17 @@ int main()
 			cout<<"You Win!"<<endl;
 			cout<<"Paper covers Rock!"<<endl;
 		}
-		if(cpu==3)
+		else if(cpu==3)
 		{
 			cout<<"You Lose!"<<endl;
 			cout<<"Scissors cuts Paper!"<<endl;
 		}
-		if(cpu==4)
+		else if(cpu==4)
 		{
 			cout<<"You Lose!"<<endl;
 			cout<<"Lizard eats Paper!"<<endl;
 		}
-		else{
+		else { 
 			cout<<"You Win"<<endl;
 			cout<<"Paper disproves Spock"<<endl;
 		}
@@ -135,12 +135,12 @@ int main()
 			cout<<"You Lose!"<<endl;
 			cout<<"Rock smashes Scissors!"<<endl;
 		}
-		if(cpu==2)
+		else if(cpu==2)
 		{
 			cout<<"You Win!"<<endl;
 			cout<<"Scissors cuts Paper!"<<endl;
 		}
-		if(user==4)
+		else if(user==4)
 		{
 			cout<<"You Win"<<endl;
 			cout<<"Scissors decapitates Lizard!"<<endl;
@@ -159,12 +159,12 @@ int main()
 			cout<<"You Lose!"<<endl;
 			cout<<"Rock crushes Lizard!"<<endl;
 		}
-	    if(cpu==2)
+	    else if(cpu==2)
 		{
 			cout<<"You Win!"<<endl;
 			cout<<"Lizard eats Paper!"<<endl;
 		}
-	    if(cpu==3)
+	    else if(cpu==3)
 		{
 			cout<<"You Lose!"<<endl;
 			cout<<"Scissors decapitates Lizard!"<<endl;
@@ -183,12 +183,12 @@ int main()
 				cout<<"You Win!"<<endl;
 				cout<<"Spock vaporizes Rock!"<<endl;
 			}
-			if(cpu==2)
+			else if(cpu==2)
 			{
 				cout<<"You Lose!"<<endl;
 				cout<<"Paper disproves Spock!"<<endl;
 			}
-			if(cpu==3)
+			else if(cpu==3)
 			{
 				cout<<"You Win!"<<endl;
 				cout<<"Spock smashes Scissors!"<<endl;
